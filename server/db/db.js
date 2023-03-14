@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose')
- mongoose.connect('mongodb+srv://naweliverma43:CvbwXUWYRiHT070S@cluster0.gwm4y2i.mongodb.net/todoDb?retryWrites=true&w=majority',{
+ mongoose.connect('mongodb+srv://<username>:<password>@cluster0.gwm4y2i.mongodb.net/<dbName>?retryWrites=true&w=majority',{
     useNewUrlParser: true, useUnifiedTopology: true,
 })
 .then(() => {
